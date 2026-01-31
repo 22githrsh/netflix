@@ -48,6 +48,7 @@ nav .icons{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -70,7 +71,7 @@ nav .icons{
 .video-overlay{
     height: 100%;
     width: 100%;
-    background-color: #00000052;
+    background-color: #00000077;
     position: absolute;
     padding-left: 20px;
     font-size: 26px;
@@ -161,4 +162,12 @@ nav .icons{
 .more-video-section h1{
     margin-bottom: 20px;
     margin-left: 20px;
+}
+
+.more-video-section-small{
+    height: 20vh;
+    width: 100%;
+    color: #fafafa;
+    margin-bottom: 100px;
+    z-index: 9999;
 }
